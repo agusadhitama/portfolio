@@ -134,7 +134,7 @@
     degree:   '"S.Kom – Informatika"',
     gpa:      '3.59',
     ccna:     'true',
-    branches: '36',
+    branches: '36++',
     email:    '"agusadhitama95@gmail.com"',
     github:   '"github.com/agusadhitama"',
   };
