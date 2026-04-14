@@ -130,7 +130,7 @@
   const data = {
     name:     '"Agus Satria Adhitama"',
     role:     '"IT Support Specialist"',
-    location: '"Bojonegoro, Jawa Timur"',
+    location: '"Malang, Jawa Timur"',
     degree:   '"S.Kom – Informatika"',
     gpa:      '3.59',
     ccna:     'true',
