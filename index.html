@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agus Satria Adhitama — IT Support Specialist</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Syne:wght@400;700;800&family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Canvas background -->
+  <canvas id="bg-canvas"></canvas>
+
+  <!-- Scanline overlay -->
+  <div class="scanlines"></div>
+
+  <!-- Nav -->
+  <nav id="navbar">
+    <div class="nav-logo">&gt; agus_satria_adhitama<span class="blink">_</span></div>
+    <ul class="nav-links">
+      <li><a href="#about" data-text="./about">> ./about</a></li>
+      <li><a href="#experience" data-text="./experience">> ./xp</a></li>
+      <li><a href="#skills" data-text="./skills">> ./skills</a></li>
+      <li><a href="#certifications" data-text="./certs">> ./certs</a></li>
+      <li><a href="#contact" data-text="./contact">> ./contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-content">
+      <div class="hero-tag">[ IT SUPPORT | WEB DEVELOPER ]</div>
+      <h1 class="hero-name glitch" data-text="AGUS SATRIA">AGUS SATRIA</h1>
+      <h1 class="hero-name-2 glitch" data-text="ADHITAMA">ADHITAMA</h1>
+      <div class="hero-terminal">
+        <span class="prompt">root@portfolio:~$&nbsp;</span>
+        <span id="typed-text"></span><span class="cursor-blink">█</span>
+      </div>
+      <div class="hero-badges">
+        <span class="badge">CCNA Certified</span>
+        <span class="badge">S.Kom – GPA 3.59</span>
+        <span class="badge">36 Cabang IT Ops</span>
+      </div>
+      <div class="hero-cta">
+        <a href="#about" class="btn-primary">Explore Profile</a>
+        <a href="https://github.com/agusadhitama" target="_blank" class="btn-ghost">GitHub →</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hex-grid">
+        <div class="hex-item active">NET</div>
+        <div class="hex-item">DB</div>
+        <div class="hex-item active">IT OPS</div>
+        <div class="hex-item">PHP</div>
+        <div class="hex-item active">CCNA</div>
+        <div class="hex-item">REACT</div>
+        <div class="hex-item">MYSQL</div>
+        <div class="hex-item active">REMOTE</div>
+        <div class="hex-item">LARAVEL</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-label">// 01. TENTANG SAYA</div>
+    <div class="about-grid">
+      <div class="about-left">
+        <div class="terminal-box">
+          <div class="tb-header">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+            <span class="tb-title">profile.json</span>
+          </div>
+          <pre class="tb-code" id="json-about"></pre>
+        </div>
+      </div>
+      <div class="about-right">
+        <h2>IT Engineer yang <span class="accent">Suka Problem Solving</span></h2>
+        <p>
+          IT support engineer berpengalaman mengelola dan mendukung operasional IT pada 
+          <strong>36 cabang bioskop</strong>, menjaga stabilitas sistem, mengurangi downtime, 
+          dan memastikan kelancaran operasional harian.
+        </p>
+        <p>
+          Terbukti mampu menangani troubleshooting sistem dan jaringan secara end-to-end, 
+          remote support skala multi-cabang, dan mengelola infrastruktur IT secara efisien.
+        </p>
+        <div class="stat-row">
+          <div class="stat-item">
+            <span class="stat-num" data-target="36">0</span>
+            <span class="stat-label">Cabang Bioskop</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num" data-target="3">0</span>
+            <span class="stat-label">Tahun Pengalaman</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num" data-target="5">0</span>
+            <span class="stat-label">Sertifikasi</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="section-label">// 02. PENGALAMAN KERJA</div>
+    <div class="timeline">
+
+      <div class="timeline-item" data-index="0">
+        <div class="tl-dot"></div>
+        <div class="tl-date">Jan 2026 – Sekarang</div>
+        <div class="tl-card">
+          <div class="tl-badge">CURRENT</div>
+          <h3>IT Support / Technician – Office Manager</h3>
+          <div class="tl-company">NEW STAR CINEPLEX · Malang, Jawa Timur</div>
+          <ul class="tl-list">
+            <li>Mengelola jadwal film harian 36 cabang via sistem database terpusat</li>
+            <li>Remote troubleshooting perangkat PC multi-cabang</li>
+            <li>Monitoring sistem perpajakan cloud & integrasi API</li>
+            <li>Rekap & validasi data fingerprint kehadiran karyawan seluruh cabang</li>
+            <li>Instalasi, konfigurasi, dan perawatan infrastruktur IT & jaringan</li>
+          </ul>
+          <div class="tl-tags">
+            <span>Network</span><span>Remote Support</span><span>Database</span><span>Cloud Tax</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item" data-index="1">
+        <div class="tl-dot"></div>
+        <div class="tl-date">Jan 2023 – Mar 2023</div>
+        <div class="tl-card">
+          <h3>Web Developer – Bidang Aplika</h3>
+          <div class="tl-company">DINAS KOMUNIKASI DAN INFORMATIKA · Malang</div>
+          <ul class="tl-list">
+            <li>Mengembangkan 3 fitur utama pada website SIMODAS (peminjaman, inventaris, materi ruang)</li>
+            <li>Desain & build database, wireframe, dan fitur cetak PDF</li>
+            <li>Dokumentasi proyek lengkap hingga laporan akhir</li>
+          </ul>
+          <div class="tl-tags">
+            <span>PHP</span><span>Laravel</span><span>MySQL</span><span>Figma</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item" data-index="2">
+        <div class="tl-dot"></div>
+        <div class="tl-date">Jul 2017 – Jan 2018</div>
+        <div class="tl-card">
+          <h3>Produksi & Instalasi Audio</h3>
+          <div class="tl-company">TIARA ELECTRONIC · Bojonegoro</div>
+          <ul class="tl-list">
+            <li>Merakit komponen elektronik & sistem audio end-to-end</li>
+            <li>Instalasi sistem audio di berbagai fasilitas klien</li>
+          </ul>
+          <div class="tl-tags">
+            <span>Electronics</span><span>Hardware</span><span>Installation</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="section-label">// 03. KEMAMPUAN TEKNIS</div>
+    <div class="skills-grid">
+
+      <div class="skill-category">
+        <div class="sc-header"><span class="sc-icon">⬡</span> Sistem & Jaringan</div>
+        <div class="skill-bars">
+          <div class="skill-bar"><span>Windows OS Admin</span><div class="bar"><div class="bar-fill" data-w="92"></div></div><span class="pct">92%</span></div>
+          <div class="skill-bar"><span>LAN Configuration</span><div class="bar"><div class="bar-fill" data-w="88"></div></div><span class="pct">88%</span></div>
+          <div class="skill-bar"><span>Network Troubleshooting</span><div class="bar"><div class="bar-fill" data-w="90"></div></div><span class="pct">90%</span></div>
+          <div class="skill-bar"><span>IT Infrastructure</span><div class="bar"><div class="bar-fill" data-w="85"></div></div><span class="pct">85%</span></div>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <div class="sc-header"><span class="sc-icon">⬡</span> Database & Sistem Info</div>
+        <div class="skill-bars">
+          <div class="skill-bar"><span>MySQL</span><div class="bar"><div class="bar-fill" data-w="82"></div></div><span class="pct">82%</span></div>
+          <div class="skill-bar"><span>Database Management</span><div class="bar"><div class="bar-fill" data-w="80"></div></div><span class="pct">80%</span></div>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <div class="sc-header"><span class="sc-icon">⬡</span> Programming & Web Dev</div>
+        <div class="skill-bars">
+          <div class="skill-bar"><span>PHP</span><div class="bar"><div class="bar-fill" data-w="78"></div></div><span class="pct">78%</span></div>
+          <div class="skill-bar"><span>Laravel</span><div class="bar"><div class="bar-fill" data-w="75"></div></div><span class="pct">75%</span></div>
+          <div class="skill-bar"><span>React.js</span><div class="bar"><div class="bar-fill" data-w="65"></div></div><span class="pct">65%</span></div>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <div class="sc-header"><span class="sc-icon">⬡</span> Tools & Platform</div>
+        <div class="tools-bubbles">
+          <span>GitHub</span>
+          <span>VS Code</span>
+          <span>XAMPP</span>
+          <span>Excel Advanced</span>
+          <span>Canva</span>
+          <span>Figma</span>
+          <span>Microsoft Office</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section id="certifications">
+    <div class="section-label">// 04. SERTIFIKASI & PENDIDIKAN</div>
+    <div class="cert-edu-grid">
+
+      <div class="cert-col">
+        <h3 class="col-title">&gt; Sertifikasi</h3>
+        <div class="cert-cards">
+          <div class="cert-card">
+            <div class="cert-icon">🎓</div>
+            <div class="cert-info">
+              <div class="cert-name">TAEP – English Proficiency B1</div>
+              <div class="cert-issuer">Universitas Muhammadiyah Malang</div>
+              <div class="cert-year">2025 – 2027</div>
+            </div>
+          </div>
+          <div class="cert-card">
+            <div class="cert-icon">💻</div>
+            <div class="cert-info">
+              <div class="cert-name">Web Developer (BNSP)</div>
+              <div class="cert-issuer">LSP UMM – Software Development</div>
+              <div class="cert-year">2023 – 2026</div>
+            </div>
+          </div>
+          <div class="cert-card featured">
+            <div class="cert-icon">🌐</div>
+            <div class="cert-info">
+              <div class="cert-name">CCNA: Switching, Routing & Wireless</div>
+              <div class="cert-issuer">Cisco Networking Academy</div>
+              <div class="cert-year">2022</div>
+            </div>
+          </div>
+          <div class="cert-card featured">
+            <div class="cert-icon">🌐</div>
+            <div class="cert-info">
+              <div class="cert-name">CCNA: Introduction to Network</div>
+              <div class="cert-issuer">Cisco Networking Academy</div>
+              <div class="cert-year">2021</div>
+            </div>
+          </div>
+          <div class="cert-card">
+            <div class="cert-icon">🎮</div>
+            <div class="cert-info">
+              <div class="cert-name">Introduction to Indie Games</div>
+              <div class="cert-issuer">UAL Creative Computing Institute</div>
+              <div class="cert-year">2021</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="edu-col">
+        <h3 class="col-title">&gt; Pendidikan</h3>
+        <div class="edu-cards">
+          <div class="edu-card">
+            <div class="edu-degree">S.Kom – Teknik Informatika</div>
+            <div class="edu-school">Universitas Muhammadiyah Malang</div>
+            <div class="edu-meta">
+              <span>2019 – 2025</span>
+              <span class="edu-gpa">IPK 3.59 / 4.00</span>
+            </div>
+            <div class="edu-thesis">
+              Skripsi: Perancangan UI Aplikasi E-Commerce menggunakan Design Thinking (PT. Bintang Konveksi Indo)
+            </div>
+          </div>
+          <div class="edu-card">
+            <div class="edu-degree">Teknik Elektronika Industri</div>
+            <div class="edu-school">SMK Negeri 2 Bojonegoro</div>
+            <div class="edu-meta"><span>2017 – 2019</span></div>
+          </div>
+          <div class="edu-card">
+            <div class="edu-degree">Teknik Elektro</div>
+            <div class="edu-school">SMK Negeri 1 Mimika</div>
+            <div class="edu-meta"><span>2016 – 2017</span></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-label">// 05. KONTAK</div>
+    <div class="contact-wrapper">
+      <div class="contact-headline">
+        <h2>Mari <span class="accent">Terhubung</span></h2>
+        <p>Terbuka untuk peluang baru, kolaborasi, atau sekadar ngobrol soal teknologi.</p>
+      </div>
+      <div class="contact-links">
+        <a href="mailto:agusadhitama95@gmail.com" class="contact-item">
+          <div class="ci-icon">✉</div>
+          <div class="ci-info">
+            <div class="ci-label">Email</div>
+            <div class="ci-val">agusadhitama95@gmail.com</div>
+          </div>
+        </a>
+        <a href="tel:+6289538505080" class="contact-item">
+          <div class="ci-icon">📞</div>
+          <div class="ci-info">
+            <div class="ci-label">Phone / WA</div>
+            <div class="ci-val">+62 895 3850 50807</div>
+          </div>
+        </a>
+        <a href="https://github.com/agusadhitama" target="_blank" class="contact-item">
+          <div class="ci-icon">⌥</div>
+          <div class="ci-info">
+            <div class="ci-label">GitHub</div>
+            <div class="ci-val">github.com/agusadhitama</div>
+          </div>
+        </a>
+        <a href="https://linkedin.com/in/agusadhitama" target="_blank" class="contact-item">
+          <div class="ci-icon">◈</div>
+          <div class="ci-info">
+            <div class="ci-label">LinkedIn</div>
+            <div class="ci-val">linkedin.com/in/agusadhitama</div>
+          </div>
+        </a>
+      </div>
+      <div class="contact-location">📍 Malang, Jawa Timur · Indonesia</div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-inner">
+      <span>&gt; built by <strong>Agus Satria Adhitama</strong></span>
+      <span class="footer-year">© 2026</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
